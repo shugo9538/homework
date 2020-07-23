@@ -1,0 +1,26 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1"
+  }
+}
