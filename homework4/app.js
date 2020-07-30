@@ -21,9 +21,11 @@ var route_loader = require('./routes/route_loader');
 var app = express();
 
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
-console.log('뷰 엔진이 ejs로 설정되었습니다.');
+// app.set('view engine', 'ejs');
+// console.log('뷰 엔진이 ejs로 설정되었습니다.');
 
+app.set('view engine', 'pug');
+console.log('뷰 엔진이 pug로 설정되었습니다.');
 
 console.log('config.server_port : %d', config.server_port);
 app.set('port', process.env.PORT || 3000);
